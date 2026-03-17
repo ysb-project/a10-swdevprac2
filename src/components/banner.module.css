@@ -1,0 +1,27 @@
+.banner{
+    display: block;
+    margin: 0;
+    padding: 5px;
+    width: 100vw;
+    height: 80vh; 
+    position: relative;
+}
+
+.bannerText{
+    color: white;
+    top: 50%;
+    flex-direction: column;
+    transform: translate(0%, -50%);
+    z-index: 20;
+    position: relative; 
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.bannerText h1{
+    padding-bottom: 30px;
+    transform: scale(1.3);
+}
+
